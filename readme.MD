@@ -17,7 +17,7 @@ The Logic part is still in development. It has no use yet, but the source code c
 
 ## Using as a base
 
-This does not support all types of packets. Take a look in the [Packets.ts](src\enums\Packets.ts) file to see the enum of all packets.
+This does not support all types of packets. Take a look in the [Packets.ts](src/enums/Packets.ts) file to see the enum of all packets.
 
 ## Visualizer
 

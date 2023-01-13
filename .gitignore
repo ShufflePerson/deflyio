@@ -6,3 +6,5 @@ log.txt
 dump.json
 
 .env
+
+scripts\browser\defly_client.js

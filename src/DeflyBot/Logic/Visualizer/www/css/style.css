@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@100;300;400;500;700;800;900&family=Varela+Round&display=swap');
+
+body {
+    color: #FFFFFF;
+    background-color: #161616;
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+.data {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.usernames {
+    
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    max-height: 800px;
+    overflow: auto;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+
+.username {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    background-color: rgb(35, 35, 35);
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: #0000001b -5px 5px 25px;
+    font-size: 25px;
+    padding: 10px 20px;
+
+    transition: all 250ms ease-in-out;
+}
+
+.username:hover {
+    opacity: 0.9;
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.render{
+    font-size: 30px;
+    position: absolute;
+    left: 30px;
+    top: 30px;
+}
+
+#canvas {
+    border-radius: 10px;
+    box-shadow: #0000001b -5px 5px 25px;
+}

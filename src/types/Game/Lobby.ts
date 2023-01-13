@@ -1,0 +1,3 @@
+interface Lobby {
+    players: Player[];
+}
